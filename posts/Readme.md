@@ -4,8 +4,8 @@ Our Post service needs to perform two tasks.
 2. Retrieve all the posts
 
 For that we need one route called `/posts`.
-|Post Service| | | |
-Path |Mathod |Body |Goal |
+###Post Service
+|Path |Mathod |Body |Goal |
 |:--------:|:--------:|:--------:|:--------:|
 |/posts |POST |{title:string}|Create new post|
 |/posts |GET |- |Retrieve all posts|
