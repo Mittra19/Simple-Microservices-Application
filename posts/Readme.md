@@ -5,13 +5,14 @@ Our Post service needs to perform two tasks.
 
 For that we need one route called `/posts`.
 
-##Post Service
-|Path |Mathod |Body |Goal |
-|:--------:|:--------:|:--------:|:--------:|
-|/posts |POST |{title:string}|Create new post|
-|/posts |GET |- |Retrieve all posts|
+### Post Service
 
-#Steps to implement:
+|  Path  | Mathod |      Body      |        Goal        |
+| :----: | :----: | :------------: | :----------------: |
+| /posts |  POST  | {title:string} |  Create new post   |
+| /posts |  GET   |       -        | Retrieve all posts |
+
+# Steps to implement:
 
 - `npm init -y` - To initialize the package.json file
 - `npm install express cors axios nodemon` - To install the packages express, cors, axios, and nodemon
